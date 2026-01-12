@@ -10,12 +10,12 @@
 	    <Resource Name="SE.PKG"/>
       <!-- Resource Name="ISC/SE/Tools/JSON.CLS"/ -->
       <!-- Resource Name="ISC/SE/REST/JSON.cls"/ -->
-      <CSPApplication 
+      <WebApplication 
         Url="/se/tools/json"
         SourcePath="/src/csp"
         Recurse="1"
         DeployPath="{$cspdir}/se/tools/json" 
-        MatchRoles=":{$dbrole}"
+        MatchRoles=":{$globalsDbRole}""
         PasswordAuthEnabled="1"
         UnauthenticatedEnabled="0"
         DispatchClass="ISC.SE.REST.JSON"
