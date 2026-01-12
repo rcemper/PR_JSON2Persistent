@@ -15,7 +15,7 @@
         SourcePath="/src/csp"
         Recurse="1"
         DeployPath="{$cspdir}/se/tools/json" 
-        MatchRoles=":{$globalsDbRole}""
+        MatchRoles=":{$globalsDbRole}"
         PasswordAuthEnabled="1"
         UnauthenticatedEnabled="0"
         DispatchClass="ISC.SE.REST.JSON"
